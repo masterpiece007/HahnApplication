@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="dist\**" />
+    <Content Remove="dist\**" />
+    <EmbeddedResource Remove="dist\**" />
+    <None Remove="dist\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="src\components\applicant\applicant-create.ts" />
+    <None Remove="src\components\applicant\applicant-detail.ts" />
+    <None Remove="src\components\applicant\applicant-edit.ts" />
+    <None Remove="src\components\applicant\applicant-list.ts" />
+    <None Remove="src\components\hahn-modal.html" />
+    <None Remove="src\components\hahn.modal.ts" />
+    <None Remove="src\helpers\modals\detail.modal.ts" />
+    <None Remove="src\helpers\modals\error.modal.ts" />
+    <None Remove="src\helpers\modals\hahn.modal.ts" />
+    <None Remove="src\helpers\objectvalues.converter.ts" />
+    <None Remove="src\index.d.ts" />
+    <None Remove="src\models\applicant.model.ts" />
+    <None Remove="src\resources\validation\simple-validation-renderer.ts" />
+    <None Remove="src\services\applicant.services.js" />
+    <None Remove="src\services\applicant.services.js.map" />
+    <None Remove="src\services\applicant.services.ts" />
+    <None Remove="src\services\dialog.services.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0-*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\components\applicant\applicant-create.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\components\applicant\applicant-detail.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\components\applicant\applicant-edit.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\components\applicant\applicant-list.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\helpers\modals\detail.modal.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\helpers\modals\error.modal.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\helpers\modals\hahn.modal.ts" />
+    <TypeScriptCompile Include="src\models\applicant.model.ts" />
+    <TypeScriptCompile Include="src\resources\validation\simple-validation-renderer.ts" />
+    <TypeScriptCompile Include="src\services\applicant.services.ts" />
+  </ItemGroup>
+</Project>

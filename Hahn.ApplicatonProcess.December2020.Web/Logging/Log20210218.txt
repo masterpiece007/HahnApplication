@@ -1,0 +1,8 @@
+2021-02-18 09:01:06.345 +01:00 [INF] CreateApplicant: {"Id":0,"Name":"Bode1","FamilyName":"Ibrahim Akande","Address":"qwerfdsaqwedss","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":23,"Hired":true}
+2021-02-18 09:01:18.314 +01:00 [INF] getapplicant: {"Id":1,"Name":"Bode1","FamilyName":"Ibrahim Akande","Address":"qwerfdsaqwedss","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":23,"Hired":true}
+2021-02-18 09:01:42.418 +01:00 [INF] getapplicant: {"Id":1,"Name":"Bode1","FamilyName":"Ibrahim Akande","Address":"qwerfdsaqwedss","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":25,"Hired":true}
+2021-02-18 09:02:04.271 +01:00 [INF] getapplicant: {"Id":1,"Name":"Bode1","FamilyName":"Ibrahim Akande","Address":"qwerfdsaqwedss","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":50,"Hired":true}
+2021-02-18 09:03:18.422 +01:00 [INF] CreateApplicant: {"Id":0,"Name":"Ibrahim Akande","FamilyName":"Thomas","Address":"qwerfdsaqwe","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":54,"Hired":true}
+2021-02-18 09:03:26.771 +01:00 [INF] getapplicant: {"Id":2,"Name":"Ibrahim Akande","FamilyName":"Thomas","Address":"qwerfdsaqwe","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":54,"Hired":true}
+2021-02-18 09:03:44.395 +01:00 [INF] getapplicant: {"Id":2,"Name":"Ibrahim Akande","FamilyName":"Thomas","Address":"qwerfdsaqwe","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":54,"Hired":true}
+2021-02-18 09:17:49.601 +01:00 [INF] CreateApplicant: {"Id":0,"Name":"Bodeee","FamilyName":"Thomas","Address":"weufucjddjdidjcj","CountryOfOrigin":"germany","EMailAdress":"bodethomas@gmail.com","Age":34,"Hired":true}

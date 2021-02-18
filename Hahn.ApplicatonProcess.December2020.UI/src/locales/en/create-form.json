@@ -1,0 +1,27 @@
+{
+  "applicant": "applicant",
+  "create": "create",
+  "Name": "Name",
+  "required": "required",
+  "family": "family",
+  "Address": "Address",
+  "email": "email",
+  "is": "is",
+  "Country": "Country",
+  "CountryOfOrigin": "Country Of Origin",
+  "Of": "Of",
+  "Origin": "Origin",
+  "Age": "Age",
+  "Hired": "Hired",
+  "must": "must",
+  "be": "be",
+  "between": "between",
+  "to": "to",
+  "Create": "Create",
+  "Reset": "Reset",
+  "Choose": "Choose",
+  "options": "options",
+  "Yes": "Yes",
+  "No": "No"
+
+}

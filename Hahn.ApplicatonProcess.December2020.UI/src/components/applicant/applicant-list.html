@@ -1,0 +1,48 @@
+﻿<template>
+  <!--<require from="resources/value-converters/object-value"></require>-->
+  <!--<h3>${message}</h3>-->
+<!--  ${allApplicants}-->
+  <div class="table-responsive">
+    <table class="container table table-striped" style="margin-top: 50px;">
+      <thead class="table-light">
+        <tr>
+
+
+          <th scope="col">#</th>
+          <th t="nav:Name" scope="col">Name</th>
+          <th t="nav:familyName" scope="col">FamilyName</th>
+          <th t="nav:Address" scope="col">Address</th>
+          <th t="nav:Country" scope="col">Country</th>
+          <th t="nav:email" scope="col">Email</th>
+          <th t="nav:Age" scope="col">Age</th>
+          <th t="nav:Hired" scope="col">Hired</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr if.bind="allApplicants.length === 0"><td>No Applicants to display</td></tr>
+        <tr repeat.for="applicant of allApplicants">
+          <th scope="row">${$index + 1}</th>
+
+    
+          <td>${applicant.name}</td>
+          <td>${applicant.familyName}</td>
+          <td>${applicant.address}</td>
+          <td>${applicant.countryOfOrigin}</td>
+          <td>${applicant.eMailAdress}</td>
+          <td>${applicant.age}</td>
+          <td>${applicant.hired}</td>
+          <td>
+            <!--<a class="btn btn-primary" route-href="route: applicant-detail; params.bind: {id:applicant.id}"><i class="fa fa-eye"></i></a>-->
+            <a class="btn btn-primary" click.delegate="getApplicant(applicant.id)"><i class="fa fa-eye"></i></a>
+            <a class="btn btn-success" route-href="route: applicant-edit; params.bind: {id:applicant.id}"><i class="fa fa-edit"></i></a>
+            <a class="btn btn-danger" click.delegate="deleteApplicant(applicant.id)"><i class="fa fa-trash"></i></a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+</template>

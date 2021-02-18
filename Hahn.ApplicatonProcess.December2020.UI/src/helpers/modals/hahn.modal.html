@@ -1,0 +1,43 @@
+﻿<!--<template>
+  <ai-dialog>
+    <ai-dialog-body>
+      <h2>${message}</h2>
+    </ai-dialog-body>
+
+    <ai-dialog-footer>
+      <button click.trigger="controller.cancel()">Cancel</button>
+      <button click.trigger="controller.ok(message)">Ok</button>
+    </ai-dialog-footer>
+  </ai-dialog>
+</template>-->
+
+<template>
+  <style>
+    div.div {
+      border: 1px solid blue;
+      padding: 15px;
+      border-radius :5px;
+      background-color: white;
+    }
+    ux-dialog-overlay.active {
+      background-color: black;
+      opacity: .5;
+    }
+  
+  </style>
+
+  <div class="div">
+    <!--<div>
+      <h1>${title}</h1>
+    </div>-->
+
+    <div>
+      <p1>${message}...</p1>
+    </div>
+
+    <div>
+      <button class="btn btn btn-outline-danger btn-sm" click.trigger="controller.cancel()"><i class="fa fa-times"></i></button>
+      <button class="btn btn btn-outline-primary btn-sm" click.trigger="controller.ok(message)"><i class="fa fa-check"></i></button>
+    </div>
+  </div>
+</template>

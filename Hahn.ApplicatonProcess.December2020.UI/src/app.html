@@ -1,0 +1,33 @@
+<template>
+  <require from="./assets/styles/main.css"></require>
+
+  <!--<require from="font-awesome.css"></require>-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#"><strong style="color:white">HahnUi</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navcontent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" t="nav:Applicants" route-href="route: applicants" style="color: white;">Applicants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" t="nav:CreateNew" route-href="route: applicant-create" href="#" style="color: white;">Create New</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" if.bind="locale" click.delegate="setLocale()" href="#" style="color: white;"><img src="images/de24.png"/></a>
+          <a class="nav-link" if.bind="!locale" click.delegate="setLocale()" href="#" style="color: white;"><img src="images/en24.png"/></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <router-view></router-view>
+
+
+
+</template>

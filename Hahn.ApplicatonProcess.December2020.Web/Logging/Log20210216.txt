@@ -1,0 +1,1 @@
+2021-02-16 23:53:47.914 +01:00 [INF] getapplicant: {"Id":1,"Name":"Quadri","FamilyName":"Ajagbe","Address":"My new Address 1","CountryOfOrigin":"Nigeria","EMailAdress":"q.ajagbe@gmail.com","Age":28,"Hired":true}

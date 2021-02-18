@@ -1,0 +1,49 @@
+﻿<template>
+  <!--<h3>${message}</h3>-->
+  <!-- view details -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="card text-left" style="width:35rem">
+          <div class="card-body" style="justify-items:left;">
+            <div class="card-title">
+                <h4>Applicant Details</h4>
+              </div>
+            
+              <div class="row mb-4">
+                <div class="col-4"><span>Name: </span></div>
+                <div class="col-8"><span>${applicant.name}</span></div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-4"><span>Family Name: </span></div>
+                <div class="col-8"><span>${applicant.familyName}</span></div>
+
+              </div>
+              <div class="row mb-4">
+                <div class="col-4"><span>Address: </span></div>
+                <div class="col-8"><span>${applicant.address}</span></div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-4"><span>Country Of Origin: </span></div>
+                <div class="col-8"><span>${applicant.countryOfOrigin}</span></div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-4"><span>Email: </span></div>
+                <div class="col-8"><span>${applicant.eMailAdress}</span></div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-4"><span>Age</span></div>
+                <div class="col-8"><span>${applicant.age}</span></div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-4"><span>Hired</span></div>
+                <div class="col-8"><span>${applicant.hired}</span></div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end view details -->
+</template>
