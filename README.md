@@ -13,5 +13,6 @@ HOW TO RUN THIS APPLICATION
 - Run the Web project application by pressing F5 or the green play button at the top of visual studio
 - this would open a swagger documentation page for the project in your browser.This means the server is up and running
 
--open another tab in your browser and navigate to http://localhost:8082/  . this shows the Ui for the application
+- open another tab in your browser and navigate to http://localhost:8082/  . this shows the Ui for the application
+- click the country flag image at the topright corner of the page to switch between languages
 
