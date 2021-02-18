@@ -16,12 +16,7 @@ export class ApplicantService {
   applicant = null;
   getAllApplicants() {
     return httpClient.get('https://localhost:44396/api/applicant/getall');
-    //  .then(data => {
-    //    this.allApplicants = <IApplicant>data.response
-    //    //console.log("inside getdata");
-    //    //console.table(this.allApplicants)
-    //  });
-    //return this.allApplicants;
+   
   }
 
 
@@ -113,49 +108,4 @@ export class ApplicantService {
 
   }
 
-  //getData() {
-  //  httpClient.fetch('https://localhost:44396/api/values')
-  //    .then(response => response.json())
-  //    .then(data => {
-  //      console.log("getData")
-  //      console.log(data);
-  //    });
-  //}
-  //myPostData = {
-  //  id: 101
-  //}
-  //postData(myPostData) {
-  //  httpClient.fetch('http://jsonplaceholder.typicode.com/posts', {
-  //    method: "POST",
-  //    body: JSON.stringify(myPostData)
-  //  })
-
-  //    .then(response => response.json())
-  //    .then(data => {
-  //      console.log(data);
-  //    });
-  //}
-  //myUpdateData = {
-  //  id: 1
-  //}
-  //updateData(myUpdateData) {
-  //  httpClient.fetch('http://jsonplaceholder.typicode.com/posts/1', {
-  //    method: "PUT",
-  //    body: JSON.stringify(myUpdateData)
-  //  })
-
-  //    .then(response => response.json())
-  //    .then(data => {
-  //      console.log(data);
-  //    });
-  //}
-  //deleteData() {
-  //  httpClient.fetch('http://jsonplaceholder.typicode.com/posts/1', {
-  //    method: "DELETE"
-  //  })
-  //    .then(response => response.json())
-  //    .then(data => {
-  //      console.log(data);
-  //    });
-  //}
 }
