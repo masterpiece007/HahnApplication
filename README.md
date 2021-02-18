@@ -1,7 +1,7 @@
 HOW TO RUN THIS APPLICATION
 - Ensure Aurelia CLI is installed on your machine.you can follow this guide if it is not(https://aurelia.io/docs/cli/basics#machine-setup)
 
-- Clone this repository to your local machine
+- Download this repository zip file to your local machine
 - Open the solution with Visual Studio
 - Build the solution to restore nuget packages
 - To run the Application UI, Right click the folder( Hahn.ApplicatonProcess.December2020.UI) in the Solution, and open in DEVELOPER TERMINAL
