@@ -1,4 +1,5 @@
 HOW TO RUN THIS APPLICATION
+- Ensure .NET SDK 5.0 is installed on your machine. you can follow this link to install(https://dotnet.microsoft.com/download/dotnet/5.0)
 - Ensure Aurelia CLI is installed on your machine.you can follow this guide if it is not(https://aurelia.io/docs/cli/basics#machine-setup)
 
 - Download this repository zip file to your local machine
@@ -7,7 +8,7 @@ HOW TO RUN THIS APPLICATION
 - To run the Application UI, Right click the folder( Hahn.ApplicatonProcess.December2020.UI) in the Solution, and open in DEVELOPER TERMINAL
 - Execute the command "au build".
 - Then execute the command "au run". the project should compile successfully and start running on port 8082..
--
+
 
 - Right click the Web Project(Hahn.ApplicatonProcess.December2020.Web) and set as the startup project
 - Run the Web project application by pressing F5 or the green play button at the top of visual studio
